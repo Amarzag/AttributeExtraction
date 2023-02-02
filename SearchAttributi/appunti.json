@@ -1,0 +1,28 @@
+{
+    "identity": "756_113_202",
+    "regole": {
+      "Rules": {
+        "RAM/ROM": [
+          { "ORTH": { "REGEX": "(RAM|ram)" } },
+          { "POS": "NUM" },
+          { "ORTH": { "REGEX": "GB|gb|Gb" }, "OP": "?" }
+        ],
+        "Colore": [{ "ORTH": { "REGEX": "((C|c)olore)" } }, { "POS": "ADJ" }],
+        "Risoluzione": [
+          { "POS": "NUM" },
+          { "ORTH": { "REGEX": "x|X" } },
+          { "POS": "NUM" },
+          { "ORTH": { "REGEX": "(P|p)ixel" } }
+        ]
+      },
+      "Regex": {
+        "Capacit\u00e0": "((\\d*\\d)(mAh))|((\\d*\\d) (mAh))|(\\d*\\d(.|,)(\\d*\\d)(mAh))|(\\d*\\d(.|,)(\\d*\\d) (mAh))",
+        "Pollici": "((\\d*\\d'')|(\\d*\\d ''))|(\\d*\\d(.|,)((\\d*\\d'')|(\\d*\\d '')))",
+        "Fotocamera": "(\\d*\\d(.|,)\\d*\\d(MP| MP)|\\d*\\d(MP| MP))",
+        "RAM/ROM": "(d*d (GB |gb |Gb |MB |Mb |mpx ))|(d*d(gb |GB |Gb |MB |Mb |mpx ))",
+        "Colore": "( (R|r)osso| (V|v)erde| (A|a)rancione| (B|b)lu | (B|b)lue | (G|g)iallo| (N|n)ero| (B|b)lack| (B|b)ianco| (W|w)hite| (G|g)rigio| (G|g)ray | (V|v)iola| (O|o)ro | (A|a)rgento| (R|r)osa )"
+      }
+    }
+  
+  
+  }  

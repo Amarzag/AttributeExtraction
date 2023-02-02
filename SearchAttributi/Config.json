@@ -1,0 +1,5 @@
+{
+    "mongoServer":"172.31.5.11:27017",
+    "pathRulesFile":"SearchAttributi\\RegoleList",
+    "pathIntermedio":"C:\\Users\\bacco\\Desktop\\spacy\\"
+}

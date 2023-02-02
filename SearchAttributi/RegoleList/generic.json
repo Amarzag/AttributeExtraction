@@ -1,0 +1,9 @@
+{
+  "identity": "generic",
+  "regole": {
+    "Rules": {},
+    "Regex": {
+      "Colore": "( (R|r)osso| (R|r)ed | (M|m)arrone| (B|b)rown| (V|v)erde| (G|g)reen| (A|a)rancione| (O|o)range| (B|b)lu | (B|b)lue | (G|g)iallo| (Y|y)ellow| (N|n)ero| (B|b)lack| (B|b)ianco| (W|w)hite| (G|g)rigio| (G|g)ray | (V|v)iola| (P|p)urple| (V|v)iolet| (O|o)ro | (G|g)old | (A|a)rgento| (S|s)ilver| (R|r)osa | (P|p)ink | (P|p)orpora| (A|a)zzurro| (C|c)eleste| (H|h)eavenly| (A|a)mbra| (A|a)mber | (B|b)eige| (C|c)iano| (F|f)ucsia| (I|i)indaco| (M|m)agenta)"
+    }
+  }
+}
